@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Flavor
-//
-//  Created by Md Khorshed Alam on 7/9/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -14,11 +7,10 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+        }.onAppear {
+            print("The environment is: ", Environment.rootURL)
+            print("The environment is: ", Environment.apiKey)
         }
         .padding()
     }
-}
-
-#Preview {
-    ContentView()
 }

@@ -1,0 +1,11 @@
+//
+//  Stg.xcconfig
+//  Flavor
+//
+//  Created by Md Khorshed Alam on 11/9/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+Base_Url = www.stg.google.com
+API_KEY = Stg
